@@ -7,26 +7,25 @@ app.use(morgan('combined'));
 
 var articles={
 article-one:{
-    title:'Article one|Rohan Garg';
-    heading: 'Article one';
-    date: 'March 11,2017';
-    content:<p>This is my first article based on the elections concluded recently with BJP                emerging as the supremely favoured force to be reckoned among the UP public</p>
+    title:'Article one|Rohan Garg',
+    heading: 'Article one',
+    date: 'March 11,2017',
+    content:''<p>This is my first article based on the elections concluded recently with BJP                emerging as the supremely favoured force to be reckoned among the UP public</p>
             
              <p>This is my first article based on the elections concluded recently with BJP emerging as the supremely favoured force to be reckoned among the UP public </p>
             
-              <p>This is my first article based on the elections concluded recently with BJP </p>';
+              <p>This is my first article based on the elections concluded recently with BJP </p>
 },
-article-two:{title:'Article two|Sakshi Garg';
-    heading: 'Article two';
-    date: 'March 11,2017';
-    content:'<p>This is my first article based on the elections concluded recently with BJP emerging         as the supremely favoured force to be reckoned among the UP public</p>';}
+article-two:{title:'Article two|Sakshi Garg',
+    heading: 'Article two',
+    date: 'March 11,2017',
+    content:'<p>This is my second article</p>',}
             
              ,
 article3:{ title:'Article three |Pankaj Pant';
-            heading: 'Article three';
-            date: 'March 12,2017';
-            content:'<p>This is my third article </p>
-            ';}
+            heading: 'Article three',
+            date: 'March 12,2017',
+            content:'<p>This is my third article </p>',}
 };
 
 functon createTemplate (data) {
